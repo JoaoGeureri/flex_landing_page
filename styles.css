@@ -202,3 +202,14 @@ header {
   border: solid 2px #e5e7eb;
   color: #e5e7eb;
 }
+
+/* Footer */
+
+footer {
+  background-color: var(--dark-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  color: var(--gray-bg-color);
+}
