@@ -166,3 +166,39 @@ header {
   font-weight: 700;
   width: 40%;
 }
+
+/* Call to Action Section */
+
+.cta_container {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content_container {
+  height: 150px;
+  border-radius: 10px;
+  width: 80%;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cta_header {
+  color: #e5e7eb;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.cta_text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.btn-secondary {
+  background-color: #3882f6;
+  border: solid 2px #e5e7eb;
+  color: #e5e7eb;
+}
