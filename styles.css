@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-bg-color: #1f2947;
+  --gray-bg-color: #e5e7eb;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+header {
+  background-color: var(--dark-bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 100px 0 100px;
+}
+
+.logo_text {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+.nav_container {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.nav_link {
+  margin: 0 10px 0 10px;
+}
+
+.nav_item {
+  text-decoration: none;
+  color: #e5e7eb;
+}
